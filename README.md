@@ -18,3 +18,5 @@ Feel free to fork this project and submit pull requests.
 ## Contact
 For any queries, contact me at [email](mailto:noam.mansouri1@gmail.com).
 
+## Exemple 
+<img width="1432" alt="Capture d’écran 2023-11-27 à 14 06 54" src="https://github.com/NM00001/Graphic-Project/assets/150207639/b9bf6483-86ac-4de4-be9e-4bcba5dad510">

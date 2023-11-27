@@ -1,0 +1,17 @@
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+# List of company tickers
+tickers = ['AAPL', 'GOOGL', 'MSFT']  # Example tickers
+
+# Retrieve stock market data
+data = yf.download(tickers, start="YYYY-MM-DD", end="YYYY-MM-DD")['Close']
+
+# Display the data
+data.plot(figsize=(15, 7))
+plt.title('Closing Prices of Selected Companies Stocks')
+plt.ylabel('Closing Price ($)')
+plt.xlabel('Date')
+plt.grid(True)
+plt.legend(loc='best')
+plt.show()
